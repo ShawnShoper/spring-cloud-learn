@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config-client" />
+        <module name="config-server" />
+        <module name="disruptor" />
+        <module name="eurekaclient" />
+        <module name="eurekaserver" />
+        <module name="feignclient" />
+        <module name="ribbonclient" />
+        <module name="server-api" />
+        <module name="spring-cloud-hystrix" />
+        <module name="spring-cloud-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="config-client" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="disruptor" target="1.8" />
+      <module name="eurekaclient" target="1.8" />
+      <module name="eurekaserver" target="1.8" />
+      <module name="feignclient" target="1.8" />
+      <module name="ribbonclient" target="1.8" />
+      <module name="server-api" target="1.8" />
+      <module name="sms" target="1.8" />
+      <module name="spring-cloud-config" target="1.8" />
+      <module name="spring-cloud-hystrix" target="1.8" />
+      <module name="spring-cloud-zuul" target="1.8" />
+      <module name="springboot" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

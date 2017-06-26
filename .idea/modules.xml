@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-config/config-client/config-client.iml" filepath="$PROJECT_DIR$/spring-cloud-config/config-client/config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-config/config-server/config-server.iml" filepath="$PROJECT_DIR$/spring-cloud-config/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/disruptor/disruptor.iml" filepath="$PROJECT_DIR$/disruptor/disruptor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaclient/eurekaclient.iml" filepath="$PROJECT_DIR$/eurekaclient/eurekaclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaserver/eurekaserver.iml" filepath="$PROJECT_DIR$/eurekaserver/eurekaserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feignclient/feignclient.iml" filepath="$PROJECT_DIR$/feignclient/feignclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ribbonclient/ribbonclient.iml" filepath="$PROJECT_DIR$/ribbonclient/ribbonclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-api/server-api.iml" filepath="$PROJECT_DIR$/server-api/server-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" filepath="$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix.iml" filepath="$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml" filepath="$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot.iml" filepath="$PROJECT_DIR$/springboot.iml" />
+    </modules>
+  </component>
+</project>
