@@ -19,6 +19,7 @@
         <!--<module>sms</module>-->
         <module>server-api</module>
         <module>spring-cloud-hystrix</module>
+        <module>spring-cloud-turbine</module>
     </modules>
 
     <properties>

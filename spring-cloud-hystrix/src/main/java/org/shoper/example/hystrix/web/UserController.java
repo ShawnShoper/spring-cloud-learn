@@ -22,10 +22,9 @@ public class UserController {
     @RequestMapping(value = "/add", method = RequestMethod.GET)
     @HystrixCommand(fallbackMethod = "addFallBack")
     public Integer add (@RequestParam Integer a, @RequestParam Integer b) {
-        Integer r = a + b;
-        return r;
+        return this.restTemplate.getForObject("http://COMPUTE-SERVICE/add?a="+a+"&b="+b,Integer.class);
     }
     public Integer addFallBack(Integer a ,Integer b){
-        return this.restTemplate.getForObject("http://192.168.2.56:2221/add?a="+a+"&b="+b,Integer.class);
+        return -1;
     }
 }

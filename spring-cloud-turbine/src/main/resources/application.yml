@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: turbine
+server:
+  port: 5556
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone:  http://localhost:1111/eureka/
+    register-with-eureka: true
+turbine:
+  appConfig: HYSRTIX
+  cluster-name-expression: "default"
