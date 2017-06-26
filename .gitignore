@@ -2,6 +2,5 @@
 */target
 mvnw
 mvnw.cmd
-*/.idea
 */.mvn
 .idea
