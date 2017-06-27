@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: ticket-service
+server:
+  port: 2222
+eureka:
+  instance:
+    lease-renewal-interval-in-seconds: 3
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+    defaultZone:  http://127.0.0.1:1111/eureka/

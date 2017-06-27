@@ -11,11 +11,14 @@
     <description>Demo project for Spring Boot</description>
 
     <modules>
-        <module>eurekaserver</module>
+        <module>spring-cloud-eureka-server</module>
         <module>ribbonclient</module>
         <module>feignclient</module>
         <module>spring-cloud-config</module>
+        <module>spring-cloud-zuul</module>
         <module>disruptor</module>
+        <module>spring-cloud-user-service</module>
+        <module>spring-cloud-ticket-service</module>
         <!--<module>sms</module>-->
         <module>server-api</module>
         <module>spring-cloud-hystrix</module>
