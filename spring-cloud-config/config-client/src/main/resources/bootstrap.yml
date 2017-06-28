@@ -1,0 +1,19 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone:  http://localhost:1111/eureka/
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      discovery:
+        enabled:  true
+        serviceId:  CONFIG-SERVER
+      profile:  prod
+      label:  master
+server:
+  port: 7000
+management:
+  security:
+    enabled:  false

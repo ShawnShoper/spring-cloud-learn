@@ -24,7 +24,7 @@ public class AggregationService {
     @HystrixCommand(fallbackMethod = "fallback1")
     public Observable<Ticket> getTicketByUserId(String uid) {
         return Observable.create(obs -> {
-            Ticket ticket = restTemplate.getForObject("http://user-service/ticket/" + uid, Ticket.class, uid);
+            Ticket ticket = restTemplate.getForObject("http://ticket-service/ticket/" + uid, Ticket.class, uid);
             obs.onNext(ticket);
             obs.onCompleted();
         });

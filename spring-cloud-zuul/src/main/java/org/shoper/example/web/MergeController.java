@@ -27,7 +27,7 @@ public class MergeController {
     }
 
     public Observable<UserTicket> aggregateObservable(String id) {
-        return Observable.zip(this.aggregationService.getUserById("1"), this.aggregationService.getTicketByUserId("2"), (user, ticket) -> {
+        return Observable.zip(this.aggregationService.getUserById(id), this.aggregationService.getTicketByUserId(id), (user, ticket) -> {
             UserTicket map = new UserTicket();
             map.setUser(user);
             map.setTicket(ticket);
