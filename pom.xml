@@ -19,7 +19,6 @@
         <module>disruptor</module>
         <module>spring-cloud-user-service</module>
         <module>spring-cloud-ticket-service</module>
-        <!--<module>sms</module>-->
         <module>server-api</module>
         <module>spring-cloud-hystrix</module>
         <module>spring-cloud-turbine</module>
