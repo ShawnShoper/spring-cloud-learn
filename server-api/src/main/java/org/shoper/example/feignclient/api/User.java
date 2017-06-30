@@ -6,6 +6,15 @@ package org.shoper.example.feignclient.api;
 public class User {
     private String name;
     private String address;
+    private String id;
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
 
     public String getName() {
         return name;

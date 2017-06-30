@@ -12,3 +12,9 @@ eureka:
                       defaultZone:  http://127.0.0.1:${server.port}/eureka/
       server:
         enable-self-preservation: false
+security:
+  basic:
+    enabled: true
+  user:
+    name: user
+    password: 123123

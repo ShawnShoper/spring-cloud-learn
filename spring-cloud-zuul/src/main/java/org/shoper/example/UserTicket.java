@@ -1,5 +1,7 @@
 package org.shoper.example;
 
+import org.shoper.example.feignclient.api.User;
+
 /**
  * Created by ShawnShoper on 2017/6/27.
  */
