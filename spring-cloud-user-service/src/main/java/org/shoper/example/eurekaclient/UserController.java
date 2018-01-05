@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * Created by ShawnShoper on 2017/6/27.
  */
+
 @RestController
 public class UserController {
     @GetMapping("/user/{id}")

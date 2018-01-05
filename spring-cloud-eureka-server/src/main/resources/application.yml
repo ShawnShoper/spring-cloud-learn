@@ -6,10 +6,9 @@ eureka:
 #    prefer-ip-address: true
 #    ip-address: 192.168.2.56
   client:
-    register-with-eureka: true
     fetch-registry: true
-#    serviceUrl:
-#      defaultZone:  http://127.0.0.1:1112/eureka/
+    serviceUrl:
+      defaultZone:  http://127.0.0.1:1112/eureka/
   server:
     enable-self-preservation: false
 security:
