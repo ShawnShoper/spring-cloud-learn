@@ -1,20 +1,23 @@
 server:
-        port: 1111
-
+  port: 1112
 eureka:
-      instance:
-              lease-renewal-interval-in-seconds: 3
-              prefer-ip-address: true
-      client:
-            register-with-eureka: false
-            fetch-registry: false
-            serviceUrl:
-                      defaultZone:  http://127.0.0.1:${server.port}/eureka/
-      server:
-        enable-self-preservation: false
+  instance:
+    lease-renewal-interval-in-seconds: 3
+#    prefer-ip-address: true
+#    ip-address: 192.168.2.56
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+#    serviceUrl:
+#      defaultZone:  http://127.0.0.1:1112/eureka/
+  server:
+    enable-self-preservation: false
 security:
   basic:
-    enabled: true
-  user:
-    name: user
-    password: 123123
+    enabled: false
+spring:
+  application:
+    name: registy
+#  user:
+#    name: user
+#    password: 123123

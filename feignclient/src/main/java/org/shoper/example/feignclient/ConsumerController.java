@@ -2,6 +2,7 @@ package org.shoper.example.feignclient;
 
 import org.shoper.example.feignclient.api.ComputeClient;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -21,4 +22,8 @@ public class ConsumerController {
 //		ComputeClient target = SpringMvcFeign.target(ComputeClient.class, "http://127.0.0.1:2221/");
 //		return target.add(5,2)+"";
 //	}
+	@PostMapping("/post")
+	public Integer post(){
+		return 1;
+	}
 }

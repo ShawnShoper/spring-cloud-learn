@@ -1,9 +1,9 @@
 server:
-        port: 4444
+    port: 8888
 spring:
       application:
-                name: feign-consumer
+                name: ribbon-consumer
 eureka:
       client:
             serviceUrl:
-                      defaultZone:  http://127.0.0.1:1111/eureka/
+                      defaultZone:  http://test1:1111/eureka/

@@ -15,5 +15,5 @@ spring:
         git:
           uri: http://git.daqsoft.com/shawnshoper/spring-cloud-config.git
           username: shawnshoper
-          password: xiehao,930825.
+          password: xiehao,930825.1
           search-paths: config-server/config-repo
